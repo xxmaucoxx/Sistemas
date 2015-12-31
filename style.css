@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+h2{
+	margin-top: 20%;
+	color: #fff;
+	text-align: center;
+}
+h1{
+	margin-top:5px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 80px;
+}
+p{
+	
+	color: #fff;
+	text-align: center;
+	display: block;
+	width: 70%;
+	padding: 0;
+	margin: auto;
+	text-align: justify;
+	font-family:"Tahoma", "Geneva", sans-serif;
+
+	
+
+}
+
+
+#home {
+	background: url(images/capa2.jpg) 50% 0 no-repeat fixed;
+	min-height: 700px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 10;
+}
+#seccion2 {
+	background: url(images/capa3.jpg) 50% 0 no-repeat fixed;
+	min-height: 700px;
+	max-height:100%
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -5;
+
+}
+#section3{
+	background: url(images/fon.jpg) 50% 0 no-repeat fixed;
+	min-height: 700px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+article{
+	padding: 100px;
+}
+/*.geekhome{
+	background: url(images/geek.png) no-repeat;
+	display: block;
+	height: 368px;
+	margin: 0px auto;
+	width: 517px;
+}
+*/
+.fondo{
+
+	position: absolute;
+	display: block;
+	min-height: 700px;
+	max-height:100%
+	margin: 0 auto;
+	width: 50%;
+	top:0;
+	right: 0;
+	max-width: 1920px;
+	background:rgba(0,0,0,0.5) no-repeat;
+	z-index: 11;
+
+}
+
+.efe{
+	display: block;
+	background: rgba(0,0,0,0.7);
+	width: 60%;
+	margin:auto;
+}
+
+.bot {
+
+	margin: 40px auto;
+	padding: 10px 0px;
+	background-color: rgba(13, 100, 255, 1);	
+	display: inline-block;
+	font-size: 0.9rem;
+	text-align: center;
+	width: 160px;
+	box-shadow: 0px 3px 0px #A4A4A4;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.9);
+	position: relative;
+	left: 25%;
+
+	
+}
+.bot:hover {
+	background-color:#378de5;
+
+
+
+
+
+
